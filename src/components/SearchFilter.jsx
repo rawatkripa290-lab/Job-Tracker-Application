@@ -1,5 +1,9 @@
 function SearchFilter({ searchTerm, setSearchTerm, statusFilter, setStatusFilter }) {
   return (
+    <>
+    <h1 className="text-xl text-black font-medium pb-2 text-center bg-gray-300 rounded-lg ">
+        Search Applications
+      </h1>
     <div className="flex flex-col items-center justify-center gap-3 p-5">
       <input
         type="text"
@@ -21,6 +25,7 @@ function SearchFilter({ searchTerm, setSearchTerm, statusFilter, setStatusFilter
         <option value="Rejected">Rejected</option>
       </select>
     </div>
+    </>
   );
 }
 export default SearchFilter;

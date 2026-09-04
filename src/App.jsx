@@ -1,4 +1,5 @@
 import './App.css'
+import Analytics from './components/Analytics';
 import ApplicationForm from './components/ApplicationForm'
 import ApplicationList from './components/ApplicationList'
 import KanbanBoard from './components/KanbanBoard';
@@ -42,6 +43,7 @@ function App() {
       <p className="text-1xl font-medium text-center text-gray-500 pt-[0.99px]">Job HuntHQ</p>
       <div>
         <ApplicationForm addApplication={addApplication}/>
+        <Analytics applications={applications}/>
         <SearchFilter 
           searchTerm={searchTerm} 
           setSearchTerm={setSearchTerm} 

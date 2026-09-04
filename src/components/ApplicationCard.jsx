@@ -24,7 +24,7 @@ function ApplicationCard({ job, updateNotes }) {
   };
   return (
     <div>
-      <h1 className="text-xl text-black font-medium pb-2 text-center bg-gray-300 rounded-lg ">
+      <h1 className="text-2xl font-medium text-center bg-gray-300 rounded-lg w-full h-10 ">
         Submitted Entries
       </h1>
       <div
@@ -80,7 +80,7 @@ function ApplicationCard({ job, updateNotes }) {
           <>
             <div className ="bg-gray-100 rounded-lg p-4">
               <div className="flex justify-between items-center mb-2">
-                <h3 className="font-semibold text-gray-800"> 📝 Note </h3>
+                <h3 className="font-semibold text-gray-800 text-2xl"> 📝 Note </h3>
                 <button className="text-blue-500 hover:text-blue-700 text-sm" onClick={() => setIsEditing(true)}>
                   {job.notes ? "Edit Note" : "Add Note"}
                 </button>
