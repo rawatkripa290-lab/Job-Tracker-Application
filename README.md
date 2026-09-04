@@ -34,10 +34,12 @@ A full-featured job application tracker built with React — track your job sear
 
 ## 📸 Screenshots
 
-
-
 ---
-
+![Form View](screenshots/image2.png)
+![Dashboard Chart View](screenshots/image3.png)
+![SearchApplication View](screenshots/image4.png)
+![List View](screenshots/image4.png)
+![Kanban View](screenshots/image5.png)
 ## 🚀 Getting Started (Run Locally)
 
 1. Clone the repository
