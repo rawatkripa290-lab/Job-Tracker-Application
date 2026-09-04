@@ -4,7 +4,7 @@ A full-featured job application tracker built with React — track your job sear
 
 **🔗 Live Demo:** [https://job-tracker-application-tan.vercel.app/]
 
-![Job Trail Screenshot](Add your screenshot here)
+![Job Trail Screenshot](screenshots/image.png)
 
 ## ✨ Features
 
