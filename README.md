@@ -1,16 +1,87 @@
-# React + Vite
+# 🎯 Job Trail — Job Application Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured job application tracker built with React — track your job search pipeline with a Kanban board, real-time search/filtering, inline notes, and an analytics dashboard.
 
-Currently, two official plugins are available:
+**🔗 Live Demo:** [https://job-tracker-application-tan.vercel.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Job Trail Screenshot](Add your screenshot here)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Add & Track Applications** — Log company name, job title, status, date applied, and job link
+- **Dual View Modes**
+  - 📋 **List View** — See all applications in a clean, filterable list
+  - 🗂️ **Kanban Board** — Drag and drop cards between status columns (Applied → OA → Interview → Offer → Rejected)
+- **Real-Time Search & Filter** — Instantly search by company name or filter by application status
+- **Inline Notes** — Add and edit notes directly on each application card (e.g. "Recruiter called, next round Friday")
+- **Analytics Dashboard** — Visual breakdown of applications by status via pie chart, plus total application count and response rate
+- **Persistent Storage** — Your data is saved in the browser via `localStorage`, so it survives page refreshes
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|---|---|
+| Frontend | React (Vite) |
+| Styling | Tailwind CSS |
+| Drag & Drop | [@dnd-kit](https://dndkit.com/) |
+| Charts | [Recharts](https://recharts.org/) |
+| Persistence | Browser `localStorage` |
+| Deployment | Vercel |
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of your List View, Kanban Board, and Analytics Dashboard here.
+
+---
+
+## 🚀 Getting Started (Run Locally)
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/job-trail.git
+   cd job-trail
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+---
+
+## 🧠 What I Learned
+
+Building this project helped me get hands-on with:
+- Managing complex state with React hooks (`useState`, `useEffect`)
+- Immutable state updates for arrays and objects
+- Lifting state up and prop drilling across a multi-component app
+- Integrating third-party libraries (`@dnd-kit` for drag-and-drop, `recharts` for data visualization)
+- Persisting data client-side with `localStorage`
+- Building controlled forms and real-time search/filter logic
+
+---
+
+## 📌 Future Improvements
+
+- User authentication (per-user data with Firebase/Auth)
+- Backend + database (Node.js + MongoDB) instead of localStorage
+- Follow-up date reminders and notifications
+- Export applications to CSV/PDF
+- File attachments (resume/cover letter per application)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
