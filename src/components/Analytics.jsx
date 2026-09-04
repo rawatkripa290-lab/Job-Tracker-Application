@@ -17,7 +17,7 @@ function Analytics({applications}){
   const responserate = totalapplications>0 ? ((respondedapplications/totalapplications)*100).toFixed(1) : 0;
   return(
     <>
-    <div className="pd-5 bg-stale-500 rounded-lg shadow-md">
+    <div className="pd-5 bg-slate-300 rounded-lg shadow-md">
       <h2 className ="text-xl font-bold text-center mb-4">Analytics Dashboard</h2>
       <div className="flex justify-center gap-8 mb-6">
         <div className="text-center">
@@ -50,7 +50,7 @@ function Analytics({applications}){
         </PieChart>
         </ResponsiveContainer>
       ):(
-        <P className="text-center text-gray-500">No Data yet add some more applications</P>
+        <p className="text-center text-gray-500">No Data yet add some more applications</p>
       )}
     </div>
     </>
