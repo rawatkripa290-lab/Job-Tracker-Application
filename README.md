@@ -34,10 +34,7 @@ A full-featured job application tracker built with React — track your job sear
 
 ## 📸 Screenshots
 
-![Front View](screenshots/image2.png)
-![List View](screenshots/image4.png)
-![Kanban Board](screenshots/image5.png)
-![Analytics Dashboard](screenshots/image3.png)
+
 
 ---
 
