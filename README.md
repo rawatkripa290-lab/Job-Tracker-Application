@@ -34,7 +34,10 @@ A full-featured job application tracker built with React — track your job sear
 
 ## 📸 Screenshots
 
-> Add screenshots of your List View, Kanban Board, and Analytics Dashboard here.
+![Front View](screenshots/image2.png)
+![List View](screenshots/image4.png)
+![Kanban Board](screenshots/image5.png)
+![Analytics Dashboard](screenshots/image3.png)
 
 ---
 
