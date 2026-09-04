@@ -3,7 +3,7 @@
 A full-featured job application tracker built with React — track your job search pipeline with a Kanban board, real-time search/filtering, inline notes, and an analytics dashboard.
 
 **🔗 Live Demo:** [https://job-tracker-application-tan.vercel.app/]
-
+** Screenshots ** 
 ![Job Trail Screenshot](screenshots/image.png)
 
 ## ✨ Features
